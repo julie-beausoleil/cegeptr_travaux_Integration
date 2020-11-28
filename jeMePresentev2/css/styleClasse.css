@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500;600&display=swap');
+
+@font-face {
+    font-family: OldeEnglish;
+    src: url('../font/OldeEnglish.ttf') format('truetype');
+}
+/* style.css */
+/* Programmé par Julie Beausoleil */
+/* Dernière modification: 28 novembre 2020 */
+
+body {
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Cairo', sans-serif;
+    background-image: url("../media/moroccan-flower-dark.png");
+    background-color: lightslategrey;
+}
+div {
+    padding: 10px;
+    margin: 10px;
+}
+#un {
+    background-color: rgba(255, 127, 80, 0.5);
+}
+#deux {
+    background-color: rgba(85, 160, 104, 0.5);
+}
+#trois {
+    background-color: rgba(187, 69, 154, 0.5);
+}
+#quatre {
+    background-color: rgba(200, 203, 37, 0.5);
+}
+#cinq {
+    background-color: rgba(91, 85, 160,  0.5);
+}
+.belleImage {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+.belleImage:hover {
+    box-shadow: 0 0px 2px 1px rgba(0, 140, 186, 0.5);
+}
+p {
+    font-size: 1em;
+    color: lightskyblue;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+h1.dafont {
+    font-family: 'OldeEnglish';
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.5)
+}
+h2 {
+    font-size: 1.5em;
+}
+h2.googlefont {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 1.75em;
+    color: rgba(255, 255, 255, 0.75)
+}
+h1, h2 {
+    color: lightsteelblue;
+    text-align: center;
+}
+a {
+    color: lightskyblue;
+    text-decoration: none;
+}
+a:visited {
+    color: darkcyan;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    width: 300px;
+    border-radius: 2em;
+}
+img:hover {
+    box-shadow: #333333 6px 6px;
+}
+table {
+    display: block;
+    margin: auto;
+    border-style: dotted;
+    border-width: 2px;;
+    border-color: slategrey;
+    text-align: center;
+}
+table caption {
+    font-size: 2em;
+    color: lightcyan;
+    
+}
+table th {
+   font-size: 1.5em;
+   color: lightcyan;
+}
+
+table td {
+   font-size: 1em;
+   color: rgb(149, 167, 167);
+}
+li {
+    color: lightskyblue;
+}
