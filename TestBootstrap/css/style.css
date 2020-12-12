@@ -1,0 +1,29 @@
+
+/* style.css */
+/* Programmé par Julie Beausoleil */
+/* Dernière modification: 2020-12-12 */
+
+
+.fondRouge {
+    background-color: red;
+    height: 15em;
+    border: 1px solid black;
+}
+
+.fondBleu {
+    background-color: blue;
+    height: 15em;
+    border: 1px solid black;
+}
+
+.fondVert {
+    background-color: rgb(0, 255, 0);
+    height: 15em;
+    border: 1px solid black;
+}
+
+.fondJaune {
+    background-color:yellow;
+    height: 15em;
+    border: 1px solid black;
+}
