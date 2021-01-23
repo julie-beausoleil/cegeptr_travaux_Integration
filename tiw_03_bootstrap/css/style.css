@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;700;900&display=swap');
+
+
+:root {
+    --orange: #f05f40;
+    --blanc: #ffffff;
+    --noir: #000000;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: var(--orange);
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fondOrange {
+    background-color: var(--orange);
+}
+
+.iconeOrange {
+    color: var(--orange);
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+
+.blanc {
+    border-color: var(--blanc);
+}
+
+/* doit gérer l'image de fond */
+#header {
+    clip: shape rect(0, 20%, 0, 20%);
+    background-image: url(../img/brooke-cagle-HVu5Z5LWbJs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #aaaaaa;
+    /* background-attachment: initial; */
+    /* background-origin: border-box; */
+    /* background-size: auto; */
+    padding: 30% 0 10%;
+}
+
+/* #header img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+*/
+#header h1 {
+    font-weight: 700;
+    color: var(--blanc);
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+
+}
+
+
+#header p,
+#section p {
+    color: var(--blanc);
+    margin: 1em;
+}
+
+#header a {
+    cursor: pointer;
+    color: var(--blanc);
+    background-color: var(--orange);
+    padding: 1em 2em;
+    line-height: 7rem;
+    border-radius: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#header a:hover {
+    background-color: var(--blanc);
+    color: var(--orange);
+    text-decoration: none;
+}
+
+#section {
+    background-color: var(--orange);
+}
+
+#section h2 {
+    font-size: 2rem;
+    margin: 5%;
+    color: var(--blanc);
+}
+
+#section a {
+    cursor: pointer;
+    color: var(--noir);
+    background-color: var(--blanc);
+    padding: 1em 2em;
+    line-height: 7rem;
+    border-radius: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#section a:hover {
+    background-color: var(--noir);
+    color: var(--blanc);
+    text-decoration: none;
+}
+
+#sellpoints h2 {
+    font-size: 3rem;
+    margin: 10%;
+    color: var(--noir);
+}
+
+#sellpoints h3 {
+    font-size: 2rem;
+}
+
+#sellpoints p {
+    font-size: 1.5rem;
+    margin-bottom: 3em;
+}
