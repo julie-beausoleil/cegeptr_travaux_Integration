@@ -43,11 +43,11 @@ hr {
     clip: shape rect(0, 20%, 0, 20%);
     background-image: url(../img/brooke-cagle-HVu5Z5LWbJs-unsplash.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: center;
     background-color: #aaaaaa;
     /* background-attachment: initial; */
     /* background-origin: border-box; */
-    /* background-size: auto; */
+    background-size: auto;
     padding: 30% 0 10%;
 }
 
