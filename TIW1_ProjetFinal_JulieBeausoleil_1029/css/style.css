@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;700&display=swap');
+
+
+:root {
+
+    --vert: #9bc43d;
+    --vertpale: #e6f9be;
+    --jaune: #FFD064;
+    --bleupale: #E2F4FF;
+    --blanc: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+    #photo {
+        background-image: url('../img/pexels-skitterphoto-9301.jpg');
+        min-height: 20rem;
+    }
+
+    .display-3 {
+        font-size: 3rem;
+        color: black;
+    }
+
+    section#projet h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: var(--vert);
+    }
+
+    section#projet p {
+        font-size: 1rem;
+        text-align: center;
+        padding: 0 5%;
+
+    }
+}
+
+/* TABLETTES */
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+    #photo {
+        background-image: url('../img/pexels-binyamin-mellish-169523.jpg');
+        min-height: 30rem;
+    }
+
+    .display-3 {
+        font-size: 6rem;
+        color: rgb(165, 52, 11);
+
+    }
+
+    section#projet h2 {
+        font-size: 3rem;
+        text-align: center;
+        color: var(--vert);
+    }
+
+    section#projet p {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 5%;
+
+    }
+
+    section#parallax h1 {
+        font-size: 2.5rem;
+    }
+
+    section#parallax p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #photo {
+        background-image: url('../img/pexels-joão-jesus-1084540.jpg');
+        min-height: 50rem;
+
+    }
+
+    .display-3 {
+        font-size: 10rem;
+        color: black;
+    }
+
+    section#projet h2 {
+        font-size: 4.5rem;
+        text-align: center;
+        color: var(--vert);
+    }
+
+    section#projet p {
+        font-size: 2.75rem;
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    section#parallax h1 {
+        font-size: 4.5rem;
+    }
+
+    section#parallax p {
+        font-size: 1.5rem;
+    }
+
+}
+
+body,
+html {
+
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    height: 100%;
+    background-color: var(--vert);
+}
+
+.fa,
+.fas {
+    color: var(--vert);
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#photo {
+    height: 100%;
+    background-repeat: none;
+    background-size: cover;
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(132, 169, 124);
+    opacity: 0.25;
+    z-index: 1;
+}
+
+
+
+.logo {
+    width: 10%;
+    max-height: 5em;
+}
+
+
+.navbar {
+    background-color: var(--jaune);
+}
+
+a.navbar-brand {
+    color: black;
+}
+
+li.nav-item {
+    text-align: right;
+}
+
+#fontawe {
+    background-color: var(--vertpale);
+}
+
+footer {
+    background-color: var(--vert);
+    font-size: 1rem;
+    line-height: 0.25rem;
+}
+
+footer>div {
+    font-size: 0.5rem;
+}
+
+.far,
+.iconeBlanc {
+
+    font-size: 2rem;
+    color: var(--vert);
+}
+
+.btn-primary {
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--vertpale);
+    border-color: var(--vert);
+}
+
+.btn-primary:hover {
+    color: var(--blanc);
+    background-color: var(--jaune);
+    border-color: var(--vert);
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    color: var(--vertpale);
+    background-color: var(--vertpale);
+    border-color: var(--vert);
+    box-shadow: 0 0 0 0.2rem rgba(155, 196, 61, 0.5);
+}
+
+.couleurTestRouge {
+    background-color: red;
+}
+
+.couleurTestVert {
+    background-color: green;
+}
+
+.couleurTestJaune {
+    background-color: yellow;
+}
+
+/* Parallax */
+
+
+.parallax {
+    background-image: url('../img/pexels-lukas-296230.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boiteBlanche {
+    padding: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-radius: 1em;
+}
+
+.card {
+    display: flex;
+    height: 100%;
+
+}
+
+.card>img {
+    padding: 1em;
+    width: 80%;
+}
+
+section#projet {
+    background-color: var(--vertpale);
+
+}
