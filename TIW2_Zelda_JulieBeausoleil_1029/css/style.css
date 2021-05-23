@@ -1,0 +1,110 @@
+/* 
+style.css
+Julie Beausoleil
+Dernière modification: 22-05-2021
+ */
+
+
+@font-face {
+    font-family: 'CinzelDecorative-Bold';
+    src: url(../font/CinzelDecorative-Bold.ttf);
+}
+
+body {
+    background-color: #234f30;
+}
+
+#search {
+    background-image: url(../img/pattern-triforce-2x.png);
+}
+
+.banniere {
+    background-image: url(../img/banniere.jpg);
+    background-size: cover;
+
+}
+
+h1 {
+    font-family: 'CinzelDecorative-Bold';
+    text-shadow: 0 0 4px #000000;
+    color: #ffffff;
+}
+
+.nav-item {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.sous-titre {
+    padding-bottom: 10%;
+    padding-top: 24%;
+}
+
+.zelda {
+    font-size: 5rem;
+}
+
+a:hover {
+    color: #11a30e;
+}
+
+.separation {
+    background-image: url("../img/hyrule_rule.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+}
+
+.graphiques {
+    background-color: black;
+}
+
+.list-group-item {
+
+    background-color: #d9a936;
+    border: 2px solid rgb(9, 60, 25);
+}
+
+.search {
+    background-color: #ceb373ad;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.search::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+
+}
+
+hr {
+    border-top: 2px solid rgb(185, 195, 70);
+}
+
+li a {
+    font-family: 'CinzelDecorative-Bold';
+    color: #ffffff;
+}
+
+.rouge {
+    color: #ff0000;
+}
+
+.form-fond {
+    background-color: #d5eef3;
+
+}
+
+.btn {
+    border: 1px solid #aaaaaa;
+}
+
+label {
+    color: rgb(9, 60, 25);
+    font-weight: 500;
+}
+
+.gris {
+    border-top: 2px solid rgba(125, 125, 125, 0.25);
+}

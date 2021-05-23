@@ -1,0 +1,36 @@
+PARTIE 4 - Vente en ligne
+
+1. Quelles sont les différences entre une solution de paiement en ligne et une solution de boutique en ligne?
+
+Une solution de paiement en ligne permet d'effectuer la transaction financière en ligne entre la compagnie et l'acheteur. (ex.: PayPal).
+
+Une boutique permet de montrer les produits ou services à vendre, mais ne fournit pas l'infrastructure pour faire la transaction monétaire directement en ligne.
+
+
+
+
+2. Quels facteurs affectent le prix d'une solution de boutique en ligne?
+
+Les besoins de facturations, le volume de transactions, les besoins d'intéractions avec le client, les frais de transactions, l'intégration de la solution au site de l'entreprise.
+
+
+
+
+3. Faites une recherche et listez les trois solutions de boutiques en ligne les plus utilisées en 2021 (sources à l'appui).
+
+
+Shopify
+WooCommerce
+Squarespace
+
+Sources
+https://marozed.com/blog/meilleures-plateformes-ecommerce/
+
+
+WooCommerce
+Shopify
+Magento
+
+Sources
+https://www.websitetooltester.com/fr/blog/statistique-ecommerce/#Plateformes_de_boutiques_en_ligne
+
