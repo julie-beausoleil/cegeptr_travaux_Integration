@@ -6,7 +6,6 @@ const FILES_TO_CACHE = [
     'index.html',
     'offline.html',
     'install.js',
-    'bootstrap.js'
     // mettre aussi les images, les fichiers JS. CSS pas nécessaire.
 ];
 
