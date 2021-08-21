@@ -36,9 +36,13 @@ function saveBeforeInstallPromptEvent(evt) {
 * @param {Event} evt
 */
 function installPWA(evt) {
-    // CODELAB: Add code show install prompt & hide the install button.
- 
-    // CODELAB: Log user response to prompt.
+
+        // Add code show install prompt & hide the install button.
+        deferredInstallPrompt.prompt();
+        // Hide the install button, it can't be called twice.
+        evt.srcElement.setAttribute('hidden', true);
+     
+       // Log user response to prompt.    
  
  }
  
