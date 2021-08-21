@@ -71,7 +71,9 @@ function installPWA(evt) {
  * @param {Event} evt
  */
  function logAppInstalled(evt) {
-    // CODELAB: Add code to log the event
+        // Add code to log the event
+   console.log('Weather App was installed.', evt);
+
  
  }
  
