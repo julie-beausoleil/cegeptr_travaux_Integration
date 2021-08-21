@@ -15,7 +15,7 @@
         "purpose": "any maskable"
     }
 ],
-    "start_url": "/index.html",
+    "start_url": "/cegeptr_travaux_Integration/tiw_03_bootstrap/index.html",
     "display": "standalone",
     "background_color": "#3f4eb8",
     "theme_color": "#2f3BA2"
