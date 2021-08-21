@@ -3,13 +3,13 @@
     "shortname": "Weather",
     "icons": [
         {
-        "src": "/cegeptr_travaux_Integration/TIW2_Zelda_JulieBeausoleil_1029/img/icons/icon-192x192.png",
+        "src": "/cegeptr_travaux_Integration/tiw_03_bootstrap/img/icons/icon-192x192.png",
         "sizes" : "192x192",
         "type": "image/png",
         "purpose": "any maskable"
     },
     {
-        "src": "/cegeptr_travaux_Integration/TIW2_Zelda_JulieBeausoleil_1029/img/icons/icon-512x512.png",
+        "src": "/cegeptr_travaux_Integration/tiw_03_bootstrap/img/icons/icon-512x512.png",
         "sizes" : "512x512",
         "type": "image/png",
         "purpose": "any maskable"
