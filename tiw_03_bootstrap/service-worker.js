@@ -5,6 +5,7 @@ const CACHE_NAME = 'static-cache-v1';
 const FILES_TO_CACHE = [
     'index.html',
     'offline.html',
+    'install.js'
     // mettre aussi les images, les fichiers JS. CSS pas nécessaire.
 ];
 
