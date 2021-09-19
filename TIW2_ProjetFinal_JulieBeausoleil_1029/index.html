@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Programmé par Julie Beausoleil -->
+<!-- Dernière modification: 2021-09-18 -->
+
+<html lang="fr-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julie Beausoleil">
+    <meta name="description" content="Site de la Compétence 09 du programme d'infographie.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/c09.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>C09 - ACCUEIL</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- HEADER -->
+        <header>
+             <!-- NAV -->
+         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo_c09.svg" width="30" height="30" alt="Logo de la compétence 09." loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Animation
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="animation.html">Animation d'images</a>
+                            <a class="dropdown-item" href="montage.html">Montage vidéo</a>
+                            <!--<div class="dropdown-divider"></div>-->
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Traitement d'images
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <a class="dropdown-item" href="format-sauvegarde.html">Formats de sauvegarde</a>
+                            <!-- 
+                            <a class="dropdown-item disabled" href="#">Images vectorielles</a>
+                            <a class="dropdown-item disabled" href="#">Images matricielles</a>
+                            <div class="dropdown-divider"></div>-->
+                        </div>
+                    </li>
+                    <!-- À VENIR -->
+                   <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interface
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Présentation d'Adobe XD</a>
+                            <a class="dropdown-item" href="#">Wireframes</a>
+                            <a class="dropdown-item" href="#">Grille des 12 colonnes</a>
+                            <a class="dropdown-item" href="#">Actifs</a>
+                            <a class="dropdown-item" href="#">Composants</a>
+                            <a class="dropdown-item" href="#">Kit UI et plug-ins</a>
+
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    
+                    </li>-->
+                    <!-- 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Travaux<span class="sr-only">(current)</span></a>
+                    </li>
+                    -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="ressources.html">Ressources<span class="sr-only">(current)</span></a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+            <!-- /NAV -->
+        </header>
+        <!-- /HEADER -->
+
+        <!-- MAIN -->
+        <!-- SECTION -->
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <!-- Anime.js - line drawing -->
+                    <svg id="animejs" xmlns="http://www.w3.org/2000/svg" width="300" height="300"
+                        viewbox="0 -400 1200 1500">
+                        <path stroke="#DDDDDD" stroke-width="12" fill="none"
+                            d="M499.352,984.756C231.541,983.935,14.838,766.6,15.659,498.93c0.668-267.643,218.133-484.07,485.722-483.4h0.433a443.269,443.269,0,0,1,86.822,8.129l-17.857,97.392a424.786,424.786,0,0,0-71.427-6.488c-212.949.411-385.246,173.408-384.836,386.4S287.888,886.287,500.838,885.877c212.811-.41,385.052-173.192,384.836-386.048a389.949,389.949,0,0,0-3.907-53.542l98.192-13.795a466.592,466.592,0,0,1,4.728,67.259c-0.821,267.632-218.305,485.005-485.335,485.005m-0.39-815.441c-182.695.129-330.693,148.368-330.564,331.1S316.736,831.176,499.431,831.047c182.618-.13,330.585-148.249,330.563-330.9C829.973,317.41,681.852,169.293,499.157,169.315h-0.195M384.906,331.739q41.535-44.594,107.882-44.593,102.138,0,140.118,90.436,21.608,51.236,21.608,134.91,0,81.251-20.709,135.5Q594.3,751.4,488.763,751.4a147.875,147.875,0,0,1-90.416-29.78q-40.09-29.78-45.99-86.918H440a53.119,53.119,0,0,0,16.685,32.126,51.844,51.844,0,0,0,36.1,12.349q43.489,0,61.111-48.148,9.534-26.576,12.035-77.5A94.054,94.054,0,0,1,540.3,576.664q-24.694,14.813-60.8,14.851a138.145,138.145,0,0,1-94.6-36.893q-41.5-36.894-41.5-106.342,0-71.949,41.536-116.541M532.917,509.4q29.891-19.19,29.93-66.439,0-37.988-17.739-60.225T496.5,360.62A60.405,60.405,0,0,0,457.9,373.126q-25.281,19.737-25.28,66.947,0,39.864,16.176,59.756t49.858,19.893a61.149,61.149,0,0,0,34.268-10.474" />
+
+                    </svg>
+                    <!-- /Anime.js * line drawing -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h1>Bienvenue dans la compétence 9!</h1>
+                </div>
+            </div>
+        </div>
+        <!-- /SECTION -->
+        <!-- ASIDE CARDS-->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 text-center mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-running i--fonce"></i>
+                            <h5 class="card-title pt-3">Animation</h5>
+                            <p class="card-text">Animation d'images et montage vidéo dans&nbsp;Photoshop.</p>
+                            <a href="animation.html" class="btn btn-dark">Animation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 text-center mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="far fa-image i--fonce"></i>
+                            <h5 class="card-title pt-3">Traitement d'images</h5>
+                            <p class="card-text">Traitement et exportation des images pour le web.</p>
+                            <a href="format-sauvegarde.html" class="btn btn-dark">Images</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 text-center mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-clipboard-list i--fonce"></i>
+                        <h5 class="card-title pt-3">Ressources</h5>
+                        <p class="card-text">Liste de vérification super utile lors de&nbsp;l'examen.</p>
+                        <a href="ressources.html" class="btn btn-dark">Ressources</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /ASIDE -->
+
+    <!-- /MAIN -->
+
+
+    <!-- FOOTER -->
+    <footer class="fixed-bottom">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center py-2">
+                &copy; Tous droits réservés - Julie Beausoleil - 2021
+            </div>
+        </div>
+    </footer>
+   
+    <!-- /FOOTER -->
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/anime-master/lib/anime.min.js"></script>
+    <script src="service-worker.js"></script>
+    <script src="js/install.js"></script>
+
+    <!-- Anime.js - line drawing -->
+    <script>
+        anime({
+            targets: '#animejs path',
+            strokeDashoffset: [anime.setDashoffset, 0],
+            easing: 'easeInOutQuad',
+            duration: 5000,
+            direction: 'alternate',
+            loop: true
+        });
+    </script>
+</body>
+
+</html>

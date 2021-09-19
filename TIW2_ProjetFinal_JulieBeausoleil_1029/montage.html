@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- montage.html -->
+<!-- Programmé par Julie Beausoleil -->
+<!-- Dernière modification: 2021-09-18 -->
+
+<html lang="fr-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julie Beausoleil">
+    <meta name="description" content="Site de la Compétence 09 du programme d'infographie.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- ! Video.js-->
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+    <!-- ! /Video.js-->
+    <link rel="stylesheet" href="css/c09.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>C09 - MONTAGE VIDÉO</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- HEADER -->
+        <header>
+            <!-- NAV -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo_c09.svg" width="30" height="30" alt="Logo de la compétence 09." loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  active" href="#" id="navbarDropdown1" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Animation
+                            </a>
+                            <div class="dropdown-menu  active" aria-labelledby="navbarDropdown1">
+                                <a class="dropdown-item" href="animation.html">Animation d'images</a>
+                                <a class="dropdown-item  active" href="montage.html">Montage vidéo</a>
+                                <!--<div class="dropdown-divider"></div>-->
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Traitement d'images
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <a class="dropdown-item" href="format-sauvegarde.html">Formats de sauvegarde</a>
+                                <!-- 
+                            <a class="dropdown-item disabled" href="#">Images vectorielles</a>
+                            <a class="dropdown-item disabled" href="#">Images matricielles</a>
+                            <div class="dropdown-divider"></div>-->
+                            </div>
+                        </li>
+                        <!-- À VENIR -->
+                        <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interface
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Présentation d'Adobe XD</a>
+                            <a class="dropdown-item" href="#">Wireframes</a>
+                            <a class="dropdown-item" href="#">Grille des 12 colonnes</a>
+                            <a class="dropdown-item" href="#">Actifs</a>
+                            <a class="dropdown-item" href="#">Composants</a>
+                            <a class="dropdown-item" href="#">Kit UI et plug-ins</a>
+
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    
+                    </li>-->
+                        <!-- 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Travaux<span class="sr-only">(current)</span></a>
+                    </li>
+                    -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="ressources.html">Ressources<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <!-- /NAV -->
+        </header>
+        <!-- /HEADER -->
+
+        <!-- MAIN -->
+        <!-- SECTION -->
+        <div class="container-fluid text-center">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-12 mt-5">
+                        <h1>MONTAGE VIDÉO</h1>
+                        <h3 class="mt-5">Pour ce type d'animation, nous allons utiliser un Timeline (ligne de temps),
+                            comme en montage vidéo. Ceci va nous permettre d'appliquer, à l'aide d'images-clés,
+                            différentes actions pour une piste donnée à un moment précis dans le temps.</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- /SECTION -->
+            <!-- VIDÉO -->
+            <div class="container">
+                <div class="row p-3">
+                    <!-- Venir ajuster taille avec media queries -->
+                    <video id="my-video" class="video-js" controls autoplay loop preload="auto" data-setup="{}">
+                        <source src="img/montage-video_2.mp4" type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
+                                video</a>
+                        </p>
+                    </video>
+                    <!-- Venir ajuster taille avec media queries -->
+
+                </div>
+            </div>
+            <!-- /VIDÉO -->
+
+            <div class="container">
+
+                <section class="container my-5">
+                    <div class="row pb-5">
+                        <div class="row mt-5">
+                            <div class="col-12 pl-5 text-left">
+                                <h2>Préparer le montage vidéo</h2>
+                                <ul>
+                                    <li>Une fois que tous vos calques sont prêts, ouvrez la fenêtre "Montage" dans <span
+                                            class="ul__li--gras">Fenêtre &gt; Montage.</span></li>
+                                    <li>Choisissez la bonne piste (ou le calque, les deux sont liés).</li>
+                                    <li>Position le curseur de temps au moment où votre action commencera.</li>
+                                    <li>Déterminez quelle type de changement vous voulez animer. (Position, opacité,
+                                        Style, Transformation, Effets, etc.)</li>
+                                    <li>Cliquez sur le <i class="fas fa-stopwatch"></i> pour enclencher l'image-clé.
+                                    </li>
+                                    <li>Déplacez le curseur de temps au moment où votre action doit se terminer.</li>
+                                    <li>Effectuez le changement sur le calque ou l'objet.</li>
+                                    <li>Tester votre animation.</li>
+                                    <li>Exporter la vidéo en .mp4 en cliquant sur <i class="fas fa-share"></i> dans le
+                                        bas de la fenêtre <span class="ul__li--gras">Montage</span> ou <span
+                                            class="ul__li--gras">Fichier &gt;
+                                            Exportation &gt; Rendu vidéo</span> avec les bons
+                                        paramètres.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /MAIN -->
+
+
+                <!-- FOOTER -->
+                <footer class="fixed-bottom">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center py-2">
+                            &copy; Tous droits réservés - Julie Beausoleil - 2021
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- /FOOTER -->
+
+            <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="js/bootstrap.js"></script>
+            <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+            <script src="service-worker.js"></script>
+    <script src="js/install.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

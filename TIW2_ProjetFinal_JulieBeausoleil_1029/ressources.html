@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!-- ressources.html -->
+<!-- Programmé par Julie Beausoleil -->
+<!-- Dernière modification: 2021-09-18 -->
+
+<html lang="fr-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julie Beausoleil">
+    <meta name="description" content="Site de la Compétence 09 du programme d'infographie.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/c09.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>C09 - RESSOURCES</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- HEADER -->
+        <header>
+            <!-- NAV -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo_c09.svg" width="30" height="30" alt="Logo de la compétence 09." loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Animation
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <a class="dropdown-item" href="animation.html">Animation d'images</a>
+                                <a class="dropdown-item" href="montage.html">Montage vidéo</a>
+                                <!--<div class="dropdown-divider"></div>-->
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Traitement d'images
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <a class="dropdown-item" href="format-sauvegarde.html">Formats de sauvegarde</a>
+                                <!-- 
+                            <a class="dropdown-item disabled" href="#">Images vectorielles</a>
+                            <a class="dropdown-item disabled" href="#">Images matricielles</a>
+                            <div class="dropdown-divider"></div>-->
+                            </div>
+                        </li>
+                        <!-- À VENIR -->
+                        <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interface
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Présentation d'Adobe XD</a>
+                            <a class="dropdown-item" href="#">Wireframes</a>
+                            <a class="dropdown-item" href="#">Grille des 12 colonnes</a>
+                            <a class="dropdown-item" href="#">Actifs</a>
+                            <a class="dropdown-item" href="#">Composants</a>
+                            <a class="dropdown-item" href="#">Kit UI et plug-ins</a>
+
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    
+                        </li>-->
+                        <!-- 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Travaux<span class="sr-only">(current)</span></a>
+                    </li>
+                    -->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="ressources.html">Ressources<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <!-- /NAV -->
+        </header>
+        <!-- /HEADER -->
+
+        <!-- MAIN -->
+        <!-- SECTION -->
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col-12 text-center my-5">
+                    <h1 class="mb-3">Liste de vérification</h1>
+                    <p>Faites-vous une liste de vérification qui est adaptée à vos&nbsp;besoins.</p>
+                    <p>Cela vous aidera à vérifier que vous n'avez rien oublié lors de vos manipulations, et parfois,
+                        vous guidera lorsque vous êtes coincés.</p>
+                </div>
+            </div>
+        </div>
+        <!-- /SECTION -->
+        <!-- FORMULAIRE -->
+        <div class="container">
+            <div class="row bg-light">
+                <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 mb-5 py-5">
+                    <form action="validation.html" method="get" id="checklist" onclick="validerForms(), validerCourriel()">
+                        <div class="form-group">
+                            <h3>Identification</h3>
+                            <label for="prenom">Prénom*</label>
+                            <input type="text" class="form-control" id="prenom" name="prenom" aria-describedby="prenom"
+                            maxlength="100" pattern="[A-Za-z]{1,}" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nom">Nom*</label>
+                            <input type="text" class="form-control" id="nom" name="nom" aria-describedby="nom" maxlength="100" pattern="[A-Za-z]{1,}" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="foyer">Foyer*</label>
+                            <select class="form-control" id="foyer" name="foyer"
+                                required>
+                                <option value="">Indiquer votre foyer</option>
+                                <option value="071">071</option>
+                                <option value="170">170</option>
+                                <option value="171">171</option>
+                                <option value="172">172</option>
+                                <option value="173">173</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="courriel">Adresse courriel*</label>
+                            <input type="email" class="form-control" name="courriel" id="courriel"
+                                aria-describedby="courriel" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" required>
+                            <small id="courrielHelp" class="form-text text-muted">Inscrire votre adresse courriel du centre
+                                de service scolaire.</small>
+                        </div>
+
+                        <h3 class="mt-5 mb-3">Vérifications</h3>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="nomenclature"
+                                name="nomenclature" required>
+                            <label class="form-check-label" for="nomenclature">
+                                Nomenclature
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="format" name="format" required>
+                            <label class="form-check-label" for="format">
+                                Format de sauvegarde
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="dimensions" name="dimensions"
+                                required>
+                            <label class="form-check-label" for="dimensions">
+                                Dimensions
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="profil" name="profil" required>
+                            <label class="form-check-label" for="profil">
+                                Profil
+                            </label>
+                        </div>
+
+
+
+                        <div class="form-group mt-5">
+                            <label for="champtexte1">Questions</label>
+                            <textarea class="form-control" id="champtexte1" name="champtexte1" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" value="submit" class="btn btn-dark mt-3" >J'ai fini&thinsp;!</button>
+                        <small id="champHelp" class="form-text text-muted pt-2">* Champ requis</small>
+
+                        <!-- MODAL -->
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Liste de vérifications
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Vous avez complété tous les champs demandées dans la liste de
+                                        vérifications&thinsp;!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Revérifier</button>
+                                        <button type="submit" value="Submit" class="btn btn-dark">Envoyer mes
+                                            questions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /MODAL -->
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FORMULAIRE -->
+
+    <!-- /MAIN -->
+
+
+    <!-- FOOTER -->
+    <footer class="fixed-bottom">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center py-2">
+                &copy; Tous droits réservés - Julie Beausoleil - 2021
+            </div>
+        </div>
+    </footer>
+   
+    <!-- /FOOTER -->
+
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/c09.js"></script>
+    <script src="service-worker.js"></script>
+    <script src="js/install.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+    "name": "Weather",
+    "shortname": "Weather",
+    "icons": [
+        {
+        "src": "/cegeptr_travaux_Integration/tiw_03_bootstrap/img/icons/icon-192x192.png",
+        "sizes" : "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/cegeptr_travaux_Integration/tiw_03_bootstrap/img/icons/icon-512x512.png",
+        "sizes" : "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }
+],
+    "start_url": "/cegeptr_travaux_Integration/tiw_03_bootstrap/index.html",
+    "display": "standalone",
+    "background_color": "#3f4eb8",
+    "theme_color": "#2f3BA2"
+}
