@@ -1,4 +1,4 @@
-'use strict'
+
 
 var donneesRemplies = document.forms["checklist"]["prenom"]["nom"]["foyer"]["courriel"]["nomenclature"]["format"]["dimension"]["profil"].value;
 var regexNomPrenom = /^([A-Za-z]{1,})$/;
