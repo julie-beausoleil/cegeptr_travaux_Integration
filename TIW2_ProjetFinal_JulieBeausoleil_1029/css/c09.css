@@ -28,9 +28,14 @@ body {
   font-weight: 600;
 }
 
-h1,
-h2,
-p,
+h1 {
+  color: #cccccc;
+}
+
+h2 {
+  color: #cccccc;
+}
+
 li {
   color: #cccccc;
 }
