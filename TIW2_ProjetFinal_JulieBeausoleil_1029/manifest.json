@@ -1,22 +1,28 @@
 {
-    "name": "Weather",
-    "shortname": "Weather",
+    "name": "C09",
+    "shortname": "C09",
     "icons": [
         {
-        "src": "/cegeptr_travaux_Integration/tiw_03_bootstrap/img/icons/icon-192x192.png",
+            "src": "/cegeptr_travaux_Integration/TIW2_ProjetFinal_JulieBeausoleil_1029/img/icons/icon-180x180.png",
+            "sizes" : "180x180",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+        "src": "/cegeptr_travaux_Integration/TIW2_ProjetFinal_JulieBeausoleil_1029/img/icons/icon-192x192.png",
         "sizes" : "192x192",
         "type": "image/png",
         "purpose": "any maskable"
     },
     {
-        "src": "/cegeptr_travaux_Integration/tiw_03_bootstrap/img/icons/icon-512x512.png",
+        "src": "/cegeptr_travaux_Integration/TIW2_ProjetFinal_JulieBeausoleil_1029/img/icons/icon-512x512.png",
         "sizes" : "512x512",
         "type": "image/png",
         "purpose": "any maskable"
     }
 ],
-    "start_url": "/cegeptr_travaux_Integration/tiw_03_bootstrap/index.html",
+    "start_url": "/cegeptr_travaux_Integration/TIW2_ProjetFinal_JulieBeausoleil_1029/index.html",
     "display": "standalone",
-    "background_color": "#3f4eb8",
-    "theme_color": "#2f3BA2"
+    "background_color": "#333333",
+    "theme_color": "#888888"
 }
