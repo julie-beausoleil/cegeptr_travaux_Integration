@@ -1,6 +1,6 @@
 'use strict'
 
-var donneesRemplies = document.forms["prenom"]["nom"]["foyer"]["courriel"]["nomenclature"]["format"]["dimension"]["profil"].value;
+var donneesRemplies = document.forms["checklist"]["prenom"]["nom"]["foyer"]["courriel"]["nomenclature"]["format"]["dimension"]["profil"].value;
 var regexNomPrenom = /^([A-Za-z]{1,})$/;
 var regexEmail1 = /^([a-z])+\@([a-z])+\.([a-z]{2,4})$/;
 var emailAddr = document.getElementById("courriel");
