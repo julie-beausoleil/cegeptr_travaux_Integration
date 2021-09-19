@@ -1,10 +1,41 @@
-const CACHE_NAME = 'static-cache-v7';
+const CACHE_NAME = 'static-cache-v1';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
     'index.html',
+    'animation.html',
+    'montage.html',
+    'format-sauvegarde.html',
+    'validation.html',
+    'ressources.html',
     'offline.html',
-    'js/install.js'
+    'js/bootstrap.js',
+    'js/c09.js',
+    'js/install.js',
+    'js/anime-master/build.js',
+    'js/anime-master/src/index.js',
+    'js/anime-master/lib/anime.js',
+    'js/anime-master/lib/anime.es.js',
+    'js/anime-master/lib/anime.min.js',
+    'img/enregistrer-web.png',
+    'img/exporter-selection.png',
+    'img/logo_anime.svg',
+    'img/logo_c09.svg',
+    'img/logo_calixa.svg',
+    'img/logo_stroke.svg',
+    'img/montage-video_2.mp4',
+    'img/rendu-video.png',
+    'img/anim_img/01.png',
+    'img/anim_img/02.png',
+    'img/anim_img/03.png',
+    'img/anim_img/04.png',
+    'img/anim_img/05.png',
+    'img/anim_img/06.png',
+    'img/anim_img/07.png',
+    'img/anim_img/08.png',
+    'img/anim_img/anim-sprite.gif',
+    'img/anim_img/capture_anim_img.png',
+    
     // mettre aussi les images, les fichiers JS. CSS pas nécessaire.
 ];
 
@@ -62,7 +93,7 @@ self.addEventListener('fetch', (evt) => {
             .catch(() => {
                 return caches.open(CACHE_NAME)
                     .then((cache) => {
-                                                return cache.match('/cegeptr_travaux_Integration/tiw_03_bootstrap/offline.html');
+                                                return cache.match('/cegeptr_travaux_Integration/TIW2_ProjetFinal_JulieBeausoleil_1029/offline.html');
                     });
             })
     );
