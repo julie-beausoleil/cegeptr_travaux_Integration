@@ -3,8 +3,8 @@
     "shortname": "C09",
     "icons": [
         {
-            "src": "/cegeptr_travaux_Integration/TIW2_ProjetFinal_JulieBeausoleil_1029/img/icons/icon-180x180.png",
-            "sizes" : "180x180",
+            "src": "/cegeptr_travaux_Integration/TIW2_ProjetFinal_JulieBeausoleil_1029/img/icons/icon-128x128.png",
+            "sizes" : "128x128",
             "type": "image/png",
             "purpose": "any maskable"
         },
